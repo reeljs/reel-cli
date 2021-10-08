@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "sourceMap": true,
+        "declaration": true,
+        "outDir": "lib",
+        "strict": true,
+        "watch": true,
+        "types": [
+            "node"
+        ],
+    },
+    "include": [
+        "reel-server/*",
+        "bin/*",
+        "cli/*",
+        "helpers/*",
+        "utils/*"
+    ],
+    "exclude": [
+        "node_modules",
+    ]
+}
